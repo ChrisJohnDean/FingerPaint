@@ -11,13 +11,9 @@
 
 @interface fingerPaintView : UIView
 
-@property UIColor *whiteColor;
-@property UIColor *blueColor;
-@property UIColor *redColor;
-@property UIColor *greenColor;
-@property UIColor *yellowColor;
-@property UIColor *brownColor;
-@property UIColor *grayColor;
-@property UIColor *blackColor;
+@property UIColor *currentColor;
+
+
+
 
 @end

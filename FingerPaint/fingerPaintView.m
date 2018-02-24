@@ -58,7 +58,8 @@
     UIBezierPath *path = [UIBezierPath bezierPath];
     path.lineWidth = 5.0;
     path.lineCapStyle = kCGLineCapRound;
-    [[UIColor grayColor] setStroke];
+    //[[UIColor self.currentColor] setStroke];
+    [self.currentColor setStroke];
     
     for (LineSegmentDataModel *segment in self.linesArray)
     {

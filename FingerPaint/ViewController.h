@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "fingerPaintView.h"
 
 @interface ViewController : UIViewController
 
