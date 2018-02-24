@@ -15,6 +15,8 @@
 		89DC1DD82040F518009DE0D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DC1DD72040F518009DE0D0 /* main.m */; };
 		89DC1DE22040F518009DE0D0 /* FingerPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DC1DE12040F518009DE0D0 /* FingerPaintTests.m */; };
 		89DC1DED2040F518009DE0D0 /* FingerPaintUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DC1DEC2040F518009DE0D0 /* FingerPaintUITests.m */; };
+		89DC1DFC2040FBFE009DE0D0 /* LineSegmentDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DC1DFB2040FBFE009DE0D0 /* LineSegmentDataModel.m */; };
+		89DC1E012041000C009DE0D0 /* fingerPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DC1E002041000C009DE0D0 /* fingerPaintView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		89DC1DE82040F518009DE0D0 /* FingerPaintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DC1DEC2040F518009DE0D0 /* FingerPaintUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintUITests.m; sourceTree = "<group>"; };
 		89DC1DEE2040F518009DE0D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DC1DFA2040FBFE009DE0D0 /* LineSegmentDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineSegmentDataModel.h; sourceTree = "<group>"; };
+		89DC1DFB2040FBFE009DE0D0 /* LineSegmentDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineSegmentDataModel.m; sourceTree = "<group>"; };
+		89DC1DFF2041000C009DE0D0 /* fingerPaintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fingerPaintView.h; sourceTree = "<group>"; };
+		89DC1E002041000C009DE0D0 /* fingerPaintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fingerPaintView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				89DC1DD32040F518009DE0D0 /* LaunchScreen.storyboard */,
 				89DC1DD62040F518009DE0D0 /* Info.plist */,
 				89DC1DD72040F518009DE0D0 /* main.m */,
+				89DC1DFA2040FBFE009DE0D0 /* LineSegmentDataModel.h */,
+				89DC1DFB2040FBFE009DE0D0 /* LineSegmentDataModel.m */,
+				89DC1DFF2041000C009DE0D0 /* fingerPaintView.h */,
+				89DC1E002041000C009DE0D0 /* fingerPaintView.m */,
 			);
 			path = FingerPaint;
 			sourceTree = "<group>";
@@ -268,6 +278,8 @@
 				89DC1DCD2040F518009DE0D0 /* ViewController.m in Sources */,
 				89DC1DD82040F518009DE0D0 /* main.m in Sources */,
 				89DC1DCA2040F518009DE0D0 /* AppDelegate.m in Sources */,
+				89DC1E012041000C009DE0D0 /* fingerPaintView.m in Sources */,
+				89DC1DFC2040FBFE009DE0D0 /* LineSegmentDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
