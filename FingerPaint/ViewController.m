@@ -59,6 +59,9 @@
     }
     
 }
+- (IBAction)reset:(UIButton *)sender {
+    [self.paintView reset];
+}
 
 
 @end

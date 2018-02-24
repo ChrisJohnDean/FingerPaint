@@ -13,7 +13,7 @@
 
 @property UIColor *currentColor;
 
-
+- (void)reset;
 
 
 @end

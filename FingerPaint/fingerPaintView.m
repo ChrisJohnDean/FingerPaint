@@ -52,6 +52,10 @@
     [self setNeedsDisplay];
 }
 
+- (void)reset {
+    self.linesArray = [[NSMutableArray alloc] init];
+    [self setNeedsDisplay];
+}
 
 - (void)drawRect:(CGRect)rect
 {
